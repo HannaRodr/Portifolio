@@ -27,6 +27,7 @@ ul {
 .projeto, .curso {
     margin-bottom: 15px;
     padding: 12px;
-    border: 2px solid #f4a2c2; /* Rosa delicado */
+    border: 2px solid #f4a2c2; 
     border-radius: 10px;
-    background: #fff5fa; /* Fundo bem
+    background: #fff5fa; 
+}
