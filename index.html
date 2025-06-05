@@ -1,124 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt - br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio de HANNA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .project, .course {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
 </head>
+
+<link rel="stylesheet" href="Style.css">
 <body>
-    
-    <label for="nome">Nome completo:</label><br>
-    <input type="text"
-           id="nome"
-           name="nome"
-           placeholder="Digite seu nome completo"
-           required><br><br>  
 
-    <!-- Campo de e-mail -->
-    <label for="email">E-mail:</label><br>
-    <input type="email"
-           id="email"
-           name="email" placeholder="Digite seu e-mail"><br><br>
+    <header>
+        <h1>Hanna Gabrielly Nogueira Rodrigues</h1>
+        <p>Tenho 17 anos, estudo atualmente na escola estadual CEDUP Perfeito Manuel de Aguiar</p>
+        <p>Email: <a href="mailto:hannanogueirarodrigues@gmail.com">hannanogueirarodrigues@gmail.com</a>
+    </header>
 
-    <!-- Campo de senha -->
-    <label for="senha">Senha:</label><br>
-    <input type="password"
-           id="senha"
-           name="senha"
-           placeholder="Digite uma senha"><br><br>
+    <section>
+        <h2>Projetos</h2>
+        <ul>
+            <li class="project">
+                <h3>WoSupport</h3>
+                <p>WoSupport: Desenvolvimento de um aplicativo
+                     para redução de desigualdade de gênero no
+                      mercado de trabalho</p>
+                <p><strong>Função:</strong> Promover a inserção das mulheres
+                     no mercado de trabalho por meio de um aplicativo 
+                     que as conecta com empresas e divulga seu trabalho
+                      para possíveis clientes.</p>
+               
+            </li>
+           
+        </ul>
+    </section>
 
-    <!-- Campo numérico -->
-    <label for="idade">Idade:</label><br>
-    <input type="number"
-           id="idade"
-           name="idade"
-           min="0"
-           max="120"><br><br>
+    <section>
+        <h2>Cursos</h2>
+        <ul>
+            <li class="course">
+                <h3>STEAMulando futuros</h3>
+                <p>Atualmente no 1 ano do curso, concorrendo com o projeto WoSupport, sendo desenvolvido no curso. Para a Febic </p>
+            </li>
+            <li class="course">
+                <h3>Desenvolvimento de sistemas</h3>
+                <p>atualmente no segundo ano de Desenvolvimento de sistemas, tendo conhecimento de java, e conhecimentos basicos de Java script.</p>
+            </li>
+        </ul>
+    </section>
 
-    <!-- Campo de data -->
-    <label for="dataNascimento">Data de nascimento:</label><br>
-    <input type="date"
-           id="dataNascimento"
-           name="dataNascimento"><br><br>
-
-    <!-- Campo de telefone -->
-    <label for="telefone">Telefone:</label><br>
-    <input type="tel"
-           id="telefone"
-           name="telefone"
-           placeholder="(99) 99999-9999"><br><br>
-
-    <!-- Campo de URL -->
-    <label for="site">Site pessoal (opcional):</label><br>
-    <input type="url"
-           id="site"
-           name="site"
-           placeholder="https://www.seusite.com"><br><br>
-
-    <!-- Campo de cor -->
-    <label for="corFavorita">Cor favorita:</label><br>
-    <input type="color"
-           id="corFavorita"
-           name="corFavorita"><br><br>
-
-    <!-- Campo de seleção (radio) -->
-    <p>Gênero:</p>
-    <input type="radio"
-           id="masculino"
-           name="genero"
-           value="masculino">
-    <label for="masculino">Masculino</label><br>
-    <input type="radio"
-           id="feminino"
-           name="genero"
-           value="feminino">
-    <label for="feminino">Feminino</label><br>
-    <input type="radio"
-           id="outro"
-           name="genero"
-           value="outro">
-    <label for="outro">Outro</label><br><br>
-
-    <!-- Campo de múltipla escolha (checkbox) -->
-    <p>Interesses:</p>
-    <input type="checkbox"
-           id="tecnologia"
-           name="interesses"
-           value="tecnologia">
-    <label for="tecnologia">Tecnologia</label><br>
-    
-    <input type="checkbox"
-           id="esportes"
-           name="interesses"
-           value="esportes">
-    <label for="esportes">Esportes</label><br>
-
-    <input type="checkbox"
-            id="musica"
-            name="interesses"
-            value="musica">
-    <label for="musica">Música</label><br><br>
-
-    <!-- Campo de seleção (dropdown) -->
-    <label for="estado">Estado:</label><br>
-    <select id="estado" name="estado">
-        <option value="">Selecione</option>
-        <option value="SC">Santa Catarina</option>
-        <option value="PR">Paraná</option>
-        <option value="RS">Rio Grande do Sul</option>
-        <option value="SP">São Paulo</option>
-    </select><br><br>
-
-    <!-- Área de texto (textarea) -->
-    <label for="observacoes">Observações adicionais:</label><br>
-    <textarea id="observacoes"
-              name="observacoes"
-              rows="4"
-              cols="50"
-              placeholder="Digite aqui informações adicionais..."></textarea><br><br>
-
-    <!-- Botão de envio -->
-    <input type="submit" value="Cadastrar">
-</form>
 </body>
 </html>
