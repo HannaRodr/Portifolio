@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f2; /* Rosa claro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #6d4c5b; /* Tom rosado para o texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(221, 129, 164, 0.3); /* Sombra suave rosada */
+}
+
+h1, h2 {
+    color: #d63384; /* Rosa vibrante */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.projeto, .curso {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 2px solid #f4a2c2; /* Rosa delicado */
+    border-radius: 10px;
+    background: #fff5fa; /* Fundo bem
